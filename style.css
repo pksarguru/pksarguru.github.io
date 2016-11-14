@@ -1,5 +1,5 @@
-#header {
-  font-size: 30px;
+header {
+  font-size: 15px;
   margin: auto;
   padding: 20px;
   padding-bottom: 60px;
@@ -10,6 +10,19 @@
   color: white;
   text-shadow: 2px 2px black;
 
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+header:hover {
+  opacity: 0.5;
 }
 
 body {
@@ -29,19 +42,6 @@ body {
 #review_tiles img:hover {
   opacity: 0.5;
 
-}
-
-a:hover {
-  opacity: 0.5;
-}
-
-
-a:link {
-  color: black;
-}
-
-a:visited {
-  color: white;
 }
 
 footer {
@@ -82,7 +82,7 @@ footer {
   border: solid black 3px;
   float: left;
   width: 20%;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   min-height: 200px;
 }
 
